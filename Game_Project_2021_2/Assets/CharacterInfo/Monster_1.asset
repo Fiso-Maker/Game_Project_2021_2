@@ -12,10 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65d5c6d73069996419785d6f9e1505fa, type: 3}
   m_Name: Monster_1
   m_EditorClassIdentifier: 
-  _health: 500
+  _health: 400
   _TPRegeneration: 0
   _defense: 0
-  _damage: 150
+  _damage: 35
   _moveSpeed: 3
   _needTP: 1000
   _range: 2
+  _AttackdelayTime: 2

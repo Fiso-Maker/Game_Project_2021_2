@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 497485603}
   - component: {fileID: 497485605}
   - component: {fileID: 497485607}
+  - component: {fileID: 497485606}
   m_Layer: 14
   m_Name: Character_1
   m_TagString: Untagged
@@ -201,7 +202,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 497485602}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2, y: -1, z: 0}
+  m_LocalPosition: {x: -7.74, y: -1.06, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -233,6 +234,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!95 &497485606
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 497485602}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: d1e1476baa2b51c4d8d7a042a3dc1229, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &497485607
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -246,15 +266,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stat: {fileID: 11400000, guid: 07d534dc40084bb43a9d6691769e5d97, type: 2}
-  health: 0
-  TPRegeneration: 0
-  defense: 0
-  damage: 0
-  moveSpeed: 0
-  needTP: 0
-  range: 0
   m_Death: 0
   able_to_attack: 0
+  able_to_use_tpskill: 0
   CharacterType: 0
   startState: 0
 --- !u!1 &519420028
@@ -463,14 +477,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _stat: {fileID: 11400000, guid: c5e959321d08e4d40a1ef97b1bffd2ec, type: 2}
-  health: 0
-  TPRegeneration: 0
-  defense: 0
-  damage: 0
-  moveSpeed: 0
-  needTP: 0
-  range: 0
   m_Death: 0
   able_to_attack: 0
+  able_to_use_tpskill: 0
   CharacterType: 1
   startState: 0

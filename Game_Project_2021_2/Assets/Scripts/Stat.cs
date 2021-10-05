@@ -10,4 +10,5 @@ public class Stat : ScriptableObject
     public float _moveSpeed = 4.5f;
     public int _needTP = 1000;
     public float _range;
+    public float _AttackdelayTime;
 }

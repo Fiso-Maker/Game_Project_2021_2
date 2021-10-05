@@ -13,9 +13,10 @@ MonoBehaviour:
   m_Name: Yui
   m_EditorClassIdentifier: 
   _health: 404
-  _manaRegeneration: 60
+  _TPRegeneration: 60
   _defense: 3
-  _damage: 307
+  _damage: 52
   _moveSpeed: 4.5
-  _needMana: 1000
-  _range: 4.5
+  _needTP: 1000
+  _range: 8
+  _AttackdelayTime: 2.27

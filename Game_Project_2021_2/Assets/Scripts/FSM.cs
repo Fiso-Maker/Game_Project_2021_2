@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 스킬, 애니메이션 구현
+// 스킬, 애니메이션 구현 필요
 
 public class FSM : MonoBehaviour
 {
@@ -11,27 +11,25 @@ public class FSM : MonoBehaviour
     
     public Stat _stat;
 
-    public int health;
-    public int TPRegeneration;
-    public int defense;
-    public int damage;
-    public float moveSpeed;
-    public int needTP;
-    public float range;
+    private int health;
+    private int TPRegeneration;
+    private int defense;
+    private int damage;
+    private float moveSpeed;
+    private int needTP;
+    private float range;
+    private float attackdelayTime;
 
     #endregion
 
     #region Variable
 
     public bool m_Death;
-
     public bool able_to_attack;
-
+    public bool able_to_use_tpskill;
+    
     private float timer;
-
-    private float delayTime;
-
-
+    private int TP;
 
     #endregion
 
@@ -136,10 +134,13 @@ public class FSM : MonoBehaviour
         moveSpeed = _stat._moveSpeed;
         needTP = _stat._needTP;
         range = _stat._range;
-        m_Death = false;
 
-        delayTime = 1f;
+        m_Death = false;
+        able_to_use_tpskill= false;
+
+        attackdelayTime = 1f;
         timer = 0f;
+        TP = 0;
     }
 #region State FSM 관련
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -251,7 +252,12 @@ public class FSM : MonoBehaviour
                 
                 GameObject damagedObject = RayCastCheck().collider.gameObject;
                 damagedObject.GetComponent<FSM>().TakeHit(damage);
-                Debug.Log($"<color=red>{damagedObject.name}</color> - 남은 체력 : {damagedObject.GetComponent<FSM>().health}");
+                Debug.Log($"공격한 주체 : <color=green>{gameObject.name}</color> 공격받은 대상 : <color=red>{damagedObject.name}</color> - 대상의 남은 체력 : {damagedObject.GetComponent<FSM>().health}");
+
+                TP += TPRegeneration;
+                
+                Able_To_Use_TPSkill_Check();
+                
                 able_to_attack = false;
             }
             else
@@ -263,7 +269,7 @@ public class FSM : MonoBehaviour
         {
             timer += Time.deltaTime;
 
-            if (timer >= delayTime)
+            if (timer >= attackdelayTime)
 
             {
 
@@ -350,11 +356,21 @@ public class FSM : MonoBehaviour
     {
         if(m_Death) return;
 
-        health -= damage;
+        health -= (damage/(1 + (defense/100)));
+        TP += (damage/(1 + (defense/100)))/_stat._health;
 
         if(health <= 0)
         {
             ChangeState(State.Death);
+        }
+    }
+
+    private void Able_To_Use_TPSkill_Check()
+    {
+        if(TP >= needTP)
+        {
+            able_to_use_tpskill = true;
+            TP = needTP;
         }
     }
 

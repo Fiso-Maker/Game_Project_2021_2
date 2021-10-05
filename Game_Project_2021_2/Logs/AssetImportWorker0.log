@@ -1,0 +1,2523 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.7f1 (c53830e277f1) revision 12924976'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'ko' Physical Memory: 32685 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+E:\Unity\Unity Editor\2020.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/GitHub/Game_Project_2021_2/Game_Project_2021_2
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49354
+Successfully changed project path to: E:/GitHub/Game_Project_2021_2/Game_Project_2021_2
+E:/GitHub/Game_Project_2021_2/Game_Project_2021_2
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 25.16 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.7f1 (c53830e277f1)
+[Subsystems] Discovering subsystems at path E:/Unity/Unity Editor/2020.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/GitHub/Game_Project_2021_2/Game_Project_2021_2/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3070 (ID=0x2484)
+    Vendor:   
+    VRAM:     8043 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'E:/Unity/Unity Editor/2020.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'E:/Unity/Unity Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/Unity/Unity Editor/2020.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/Unity/Unity Editor/2020.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000756 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 24.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.057 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.000593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 26.40 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.612 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2251.
+Total: 2.183700 ms (FindLiveObjects: 0.208300 ms CreateObjectMapping: 0.074500 ms MarkObjects: 1.787000 ms  DeleteObjects: 0.112500 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/CharacterInfo/Stat.asset
+  artifactKey: Guid(a84ae2a60cd7eab4a977a6e589c96fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterInfo/Stat.asset using Guid(a84ae2a60cd7eab4a977a6e589c96fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9c627f1e081e966157f65104851f415') in 0.040784 seconds
+  Import took 0.043345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.543075 seconds.
+  path: Assets/Scripts/FSM.cs
+  artifactKey: Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM.cs using Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de40aaeb1bb6c9bf54721b96b0889fd') in 0.008776 seconds
+  Import took 0.011350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014484 seconds.
+  path: Assets/Scripts/FSM.cs
+  artifactKey: Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM.cs using Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5de40aaeb1bb6c9bf54721b96b0889fd') in 0.003059 seconds
+  Import took 0.005507 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.264235 seconds.
+  path: Assets/Scripts/Stat.cs
+  artifactKey: Guid(65d5c6d73069996419785d6f9e1505fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Stat.cs using Guid(65d5c6d73069996419785d6f9e1505fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c64de09061cfaad07e8a048138a1268') in 0.002838 seconds
+  Import took 0.005475 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000585 seconds.
+  path: Assets/Scripts/Stat.cs
+  artifactKey: Guid(65d5c6d73069996419785d6f9e1505fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Stat.cs using Guid(65d5c6d73069996419785d6f9e1505fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c64de09061cfaad07e8a048138a1268') in 0.002256 seconds
+  Import took 0.004397 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.564 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2255.
+Total: 1.885700 ms (FindLiveObjects: 0.211300 ms CreateObjectMapping: 0.067200 ms MarkObjects: 1.515000 ms  DeleteObjects: 0.091300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.742312 seconds.
+  path: Assets/Scripts/Stat.cs
+  artifactKey: Guid(65d5c6d73069996419785d6f9e1505fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Stat.cs using Guid(65d5c6d73069996419785d6f9e1505fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc4a37a0accfe34d536b1181817135c0') in 0.005073 seconds
+  Import took 0.007490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.986482 seconds.
+  path: Assets/CharacterInfo/Monster_1.asset
+  artifactKey: Guid(c5e959321d08e4d40a1ef97b1bffd2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterInfo/Monster_1.asset using Guid(c5e959321d08e4d40a1ef97b1bffd2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a181034f951bcc26a3ac9a2136a813') in 0.010060 seconds
+  Import took 0.013387 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/CharacterInfo/Yui.asset
+  artifactKey: Guid(07d534dc40084bb43a9d6691769e5d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterInfo/Yui.asset using Guid(07d534dc40084bb43a9d6691769e5d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '536987902fb696b1e3dbd32f19ee02dc') in 0.005862 seconds
+  Import took 0.008145 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2259.
+Total: 1.804600 ms (FindLiveObjects: 0.195300 ms CreateObjectMapping: 0.056700 ms MarkObjects: 1.459400 ms  DeleteObjects: 0.092400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.582 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.2 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2263.
+Total: 2.723300 ms (FindLiveObjects: 0.258500 ms CreateObjectMapping: 0.100900 ms MarkObjects: 2.266000 ms  DeleteObjects: 0.096900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000612 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.585 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2267.
+Total: 2.207400 ms (FindLiveObjects: 0.337500 ms CreateObjectMapping: 0.130400 ms MarkObjects: 1.641500 ms  DeleteObjects: 0.097300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000653 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2271.
+Total: 2.748700 ms (FindLiveObjects: 0.193500 ms CreateObjectMapping: 0.074900 ms MarkObjects: 2.402600 ms  DeleteObjects: 0.076900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000570 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.549 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2275.
+Total: 2.272300 ms (FindLiveObjects: 0.277200 ms CreateObjectMapping: 0.131200 ms MarkObjects: 1.783400 ms  DeleteObjects: 0.077100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000533 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.566 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2279.
+Total: 1.858300 ms (FindLiveObjects: 0.225500 ms CreateObjectMapping: 0.074700 ms MarkObjects: 1.461500 ms  DeleteObjects: 0.095600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.29 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.035700 ms (FindLiveObjects: 0.200600 ms CreateObjectMapping: 0.070200 ms MarkObjects: 1.687800 ms  DeleteObjects: 0.076300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000538 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.559 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2287.
+Total: 2.156900 ms (FindLiveObjects: 0.228300 ms CreateObjectMapping: 0.070200 ms MarkObjects: 1.754100 ms  DeleteObjects: 0.103100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1831.347540 seconds.
+  path: Assets/Prefebs
+  artifactKey: Guid(04c745fbc6605b144b42e54963ed9ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefebs using Guid(04c745fbc6605b144b42e54963ed9ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88f4be81be8959ee300fd47a6ebdde12') in 0.008872 seconds
+  Import took 0.011718 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 57.533432 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(04c745fbc6605b144b42e54963ed9ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(04c745fbc6605b144b42e54963ed9ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bedd747c041f815ff07552d499e147a1') in 0.005443 seconds
+  Import took 0.007930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.971038 seconds.
+  path: Assets/Scripts/PlayerSpawner.cs
+  artifactKey: Guid(5558870dabfbde046af0d9437c935f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSpawner.cs using Guid(5558870dabfbde046af0d9437c935f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '292db324409d9efff47ae6217d676337') in 0.005981 seconds
+  Import took 0.008919 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.614 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 2.607100 ms (FindLiveObjects: 0.280900 ms CreateObjectMapping: 0.097200 ms MarkObjects: 2.066400 ms  DeleteObjects: 0.161700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000626 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.549 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1805 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2296.
+Total: 2.789400 ms (FindLiveObjects: 0.296400 ms CreateObjectMapping: 0.093400 ms MarkObjects: 2.313300 ms  DeleteObjects: 0.085500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 171.497136 seconds.
+  path: Assets/Scripts/PlayerSpawner.cs
+  artifactKey: Guid(5558870dabfbde046af0d9437c935f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerSpawner.cs using Guid(5558870dabfbde046af0d9437c935f90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf0636731cddcc0d5211791736de902') in 0.004466 seconds
+  Import took 0.006662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.787814 seconds.
+  path: Assets/CharacterInfo/Monster_1.asset
+  artifactKey: Guid(c5e959321d08e4d40a1ef97b1bffd2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterInfo/Monster_1.asset using Guid(c5e959321d08e4d40a1ef97b1bffd2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7890b49f952face702559add1c4253') in 0.006373 seconds
+  Import took 0.008842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/CharacterInfo/Yui.asset
+  artifactKey: Guid(07d534dc40084bb43a9d6691769e5d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CharacterInfo/Yui.asset using Guid(07d534dc40084bb43a9d6691769e5d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c351a64085d9596d16a0ad2c8795b51') in 0.001703 seconds
+  Import took 0.003496 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.552 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 3.150100 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.072400 ms MarkObjects: 2.746100 ms  DeleteObjects: 0.100200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.189144 seconds.
+  path: Assets/Scripts/FSM.cs
+  artifactKey: Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM.cs using Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea23453421ff4124df631bfdf65763d') in 0.405222 seconds
+  Import took 0.407686 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000820 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.569 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.3 MB.
+System memory in use after: 87.3 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2303.
+Total: 2.047200 ms (FindLiveObjects: 0.290900 ms CreateObjectMapping: 0.124500 ms MarkObjects: 1.545000 ms  DeleteObjects: 0.085400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2583.698955 seconds.
+  path: Assets/Scripts/FSM.cs
+  artifactKey: Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FSM.cs using Guid(fdd6ab3e42d2f654687e03ba1691469c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be938609a734a7e9e4262f6c4e3ef93d') in 0.004279 seconds
+  Import took 0.006800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.520454 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f89434ac489deb914593f829e0a47671') in 0.005658 seconds
+  Import took 0.008255 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.837365 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(d79fe418087c9bc4cbb6197111a72772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation using Guid(d79fe418087c9bc4cbb6197111a72772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7c81489fd00f7b177c0a906504e1a9f') in 0.005267 seconds
+  Import took 0.007598 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.923491 seconds.
+  path: Assets/Animation/100211_0_25_000.png
+  artifactKey: Guid(f9c90f689b5d8d04a872ff2642ed5f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_000.png using Guid(f9c90f689b5d8d04a872ff2642ed5f92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b102aed9fe77ea0b42ebb2fffc726c5') in 0.063328 seconds
+  Import took 0.066069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Animation/100211_0_25_005.png
+  artifactKey: Guid(e44fa50d4ebda474590d051f955bc50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_005.png using Guid(e44fa50d4ebda474590d051f955bc50b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3bf79883df8bab687f88009c772a249') in 0.009963 seconds
+  Import took 0.012098 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Animation/100211_0_25_001.png
+  artifactKey: Guid(559092c13c1da75429600a18a5fa3cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_001.png using Guid(559092c13c1da75429600a18a5fa3cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1c4d551ff3a362e661fb3b160c48e3') in 0.009472 seconds
+  Import took 0.011734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Animation/100211_0_25_024.png
+  artifactKey: Guid(162ce4ade1b986343b28531a4ca86799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_024.png using Guid(162ce4ade1b986343b28531a4ca86799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fed9669f7623d35ffd230852ce6eb91') in 0.009793 seconds
+  Import took 0.012441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Animation/100211_0_25_034.png
+  artifactKey: Guid(fb1fd245fbc32074899d3cec92b64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_034.png using Guid(fb1fd245fbc32074899d3cec92b64a6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee24e0624b034fe8077e2d97c499bc8') in 0.019369 seconds
+  Import took 0.021573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Animation/100211_0_25_013.png
+  artifactKey: Guid(3be3291008510704398fb9a848a954b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_013.png using Guid(3be3291008510704398fb9a848a954b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1532441a927b47df8edf48077621d0fd') in 0.011336 seconds
+  Import took 0.013443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Animation/100211_0_25_037.png
+  artifactKey: Guid(4ff9eed04698f954eb6b1cdb0d1c9283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_037.png using Guid(4ff9eed04698f954eb6b1cdb0d1c9283) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ca07c82c92885745d46a23ec0c7d8cc') in 0.012128 seconds
+  Import took 0.014390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Animation/100211_0_25_014.png
+  artifactKey: Guid(cd38a3e02a10bc5438d2cf8897fb5f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_014.png using Guid(cd38a3e02a10bc5438d2cf8897fb5f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ccb49ed46421485a889bf0620c0572e') in 0.014147 seconds
+  Import took 0.016533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Animation/100211_0_25_025.png
+  artifactKey: Guid(1d46b7ab36acf6d4cbf2b45b778d1fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_025.png using Guid(1d46b7ab36acf6d4cbf2b45b778d1fac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9802a38d1b6f9701236f5aef4a080eaf') in 0.010134 seconds
+  Import took 0.012280 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Animation/100211_0_25_040.png
+  artifactKey: Guid(64e38e4f55885b34fb5f33d546fe0601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_040.png using Guid(64e38e4f55885b34fb5f33d546fe0601) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c27fab1f1e84a8d2d33b8a9bf64232') in 0.009839 seconds
+  Import took 0.011755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Animation/100211_0_25_045.png
+  artifactKey: Guid(b2e17e74a26025c4a9f018b6f05ba0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_045.png using Guid(b2e17e74a26025c4a9f018b6f05ba0a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1aa3c610253769eca154233d4489f09') in 0.016895 seconds
+  Import took 0.018912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Animation/100211_0_25_044.png
+  artifactKey: Guid(d2324ce5bc10e434297b7dd9b930fe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_044.png using Guid(d2324ce5bc10e434297b7dd9b930fe82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64987c7d3d32822670ac6728f8f4a192') in 0.008924 seconds
+  Import took 0.010753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Animation/100211_0_25_042.png
+  artifactKey: Guid(5f500d9406d57da498b47f51117f6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_042.png using Guid(5f500d9406d57da498b47f51117f6418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dbb93212a9e9592a1f8da838a52fd07') in 0.011186 seconds
+  Import took 0.013018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Animation/100211_0_25_043.png
+  artifactKey: Guid(6435a6643ee268c42aa4cb7cb1d147fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_043.png using Guid(6435a6643ee268c42aa4cb7cb1d147fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ed7c50575031466b4780101f79ee0d4') in 0.022270 seconds
+  Import took 0.024592 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Animation/100211_0_25_038.png
+  artifactKey: Guid(cc5e4d10dcbcc734d8f45486f692f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_038.png using Guid(cc5e4d10dcbcc734d8f45486f692f24a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e798320a4b64d11d70062a570b2d5ff7') in 0.009918 seconds
+  Import took 0.012081 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animation/100211_0_25_016.png
+  artifactKey: Guid(547907564322df842b5105b0fcdee1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_016.png using Guid(547907564322df842b5105b0fcdee1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c0a5679806d42a35305d488c19997a') in 0.009720 seconds
+  Import took 0.012071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Animation/100211_0_25_021.png
+  artifactKey: Guid(33be2648bd5a6ba4db92a746be314f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_021.png using Guid(33be2648bd5a6ba4db92a746be314f2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc61042b16d11605bab60847d8edfd20') in 0.011170 seconds
+  Import took 0.013464 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Animation/100211_0_25_023.png
+  artifactKey: Guid(fec5eea877154ce44b97527fccfc1c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_023.png using Guid(fec5eea877154ce44b97527fccfc1c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97917217a60a086c4d4b4b80425ba94') in 0.009680 seconds
+  Import took 0.011798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Animation/100211_0_25_039.png
+  artifactKey: Guid(aaf6f2cee1077164d9babea3fe13149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_039.png using Guid(aaf6f2cee1077164d9babea3fe13149e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3fd8f95aea1bc244ddbd72a377406b') in 0.009808 seconds
+  Import took 0.012209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Animation/100211_0_25_007.png
+  artifactKey: Guid(32926a7972f7717448e99eef008ee6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_007.png using Guid(32926a7972f7717448e99eef008ee6a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06d20e980ac1b13c5af206d80dbd0abd') in 0.011969 seconds
+  Import took 0.014094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Animation/100211_0_25_018.png
+  artifactKey: Guid(757ee2dfe62615a4bbe1aa0a8afcc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_018.png using Guid(757ee2dfe62615a4bbe1aa0a8afcc31d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9bb2941e05684992e5c5fbfa125d6ab') in 0.015696 seconds
+  Import took 0.018011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Animation/100211_0_25_012.png
+  artifactKey: Guid(b6419dbdb86987b478b3bf28969933fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_012.png using Guid(b6419dbdb86987b478b3bf28969933fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '801c634357cef76303ee370be35a3bb8') in 0.010173 seconds
+  Import took 0.012474 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Animation/100211_0_25_004.png
+  artifactKey: Guid(8b8e81bcb2d0250469e94d2c2d3557fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_004.png using Guid(8b8e81bcb2d0250469e94d2c2d3557fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe99dcc133940396675bcbbc8401ac06') in 0.011178 seconds
+  Import took 0.013536 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/Animation/100211_0_25_011.png
+  artifactKey: Guid(085fc216d1a83cd40bee92dc6072a755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_011.png using Guid(085fc216d1a83cd40bee92dc6072a755) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e620b5b07da6aecf74e0a9f17e6a293') in 0.010481 seconds
+  Import took 0.012912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animation/100211_0_25_017.png
+  artifactKey: Guid(116d6f47167e9d64da18ab1039dd615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_017.png using Guid(116d6f47167e9d64da18ab1039dd615c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '046908cb65936ffe986967d51a261074') in 0.010930 seconds
+  Import took 0.013269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animation/100211_0_25_032.png
+  artifactKey: Guid(de6b22e1e471acb408d5db96dbe96b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_032.png using Guid(de6b22e1e471acb408d5db96dbe96b10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6868e77e2e77f0c84551f6aa71294f6') in 0.012412 seconds
+  Import took 0.014755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Animation/100211_0_25_028.png
+  artifactKey: Guid(18790874d16a4d54b9a0cda3b5f39f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_028.png using Guid(18790874d16a4d54b9a0cda3b5f39f71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59b84b0b05baa4f989205241ec6ed5b') in 0.010441 seconds
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Animation/100211_0_25_031.png
+  artifactKey: Guid(80b3b035d068ada489c009a92836badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_031.png using Guid(80b3b035d068ada489c009a92836badf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10cb88eae005f7c95e51691c0d8b3f4b') in 0.011493 seconds
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Animation/100211_0_25_035.png
+  artifactKey: Guid(0e08d886fe31fc344b2b551c8ad392e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_035.png using Guid(0e08d886fe31fc344b2b551c8ad392e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488b0693c2df311c33bd2bf7ac9f8d33') in 0.009639 seconds
+  Import took 0.011692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Animation/100211_0_25_015.png
+  artifactKey: Guid(0d32cd929ff3789488ae5099cdf609d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_015.png using Guid(0d32cd929ff3789488ae5099cdf609d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '437b99c3ede6325fda14adcc430b64f3') in 0.009670 seconds
+  Import took 0.011694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Animation/100211_0_25_002.png
+  artifactKey: Guid(d3f8f2b3524e6ce4e9830cebed4894f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_002.png using Guid(d3f8f2b3524e6ce4e9830cebed4894f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4082625f28872a8ffaf5490f697ff5c0') in 0.009121 seconds
+  Import took 0.011199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Animation/100211_0_25_006.png
+  artifactKey: Guid(534ee5a17fe25e94db833261288df9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_006.png using Guid(534ee5a17fe25e94db833261288df9d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1464af703b91452e382ba4798a4e57ef') in 0.010001 seconds
+  Import took 0.011945 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animation/100211_0_25_008.png
+  artifactKey: Guid(c56e01a2a1eaea549a0dee96258764d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_008.png using Guid(c56e01a2a1eaea549a0dee96258764d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cb5b436db96391ede5bfb654078064') in 0.009127 seconds
+  Import took 0.011040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Animation/100211_0_25_003.png
+  artifactKey: Guid(bc4e9cf1c7e22c448bab1bf10aa5ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_003.png using Guid(bc4e9cf1c7e22c448bab1bf10aa5ffd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e2884d99c2b8e999c40aa2db5a7f11c') in 0.009115 seconds
+  Import took 0.011198 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Animation/100211_0_25_020.png
+  artifactKey: Guid(03b999c828c56c441a97e8e6943688c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_020.png using Guid(03b999c828c56c441a97e8e6943688c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b87a13e02bc07e0eacac60bb5319663') in 0.009361 seconds
+  Import took 0.011491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Animation/100211_0_25_010.png
+  artifactKey: Guid(9db496476e307f1448e09c0964fd29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_010.png using Guid(9db496476e307f1448e09c0964fd29b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1475b5219f03a90815554138c24c895c') in 0.008739 seconds
+  Import took 0.010860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Animation/100211_0_25_009.png
+  artifactKey: Guid(b7947d226615b3346b399872bc715b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_009.png using Guid(b7947d226615b3346b399872bc715b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67168b02f9ef9c6c2e884c5b281d200c') in 0.008745 seconds
+  Import took 0.010941 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Animation/100211_0_25_033.png
+  artifactKey: Guid(36de40156970c6546a3a2265d05ba92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_033.png using Guid(36de40156970c6546a3a2265d05ba92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec3dc92a587ae6e3d470f6ee58e7e4dc') in 0.011218 seconds
+  Import took 0.013524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Animation/100211_0_25_030.png
+  artifactKey: Guid(718dc31aa77661d41a92251f6d141ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_030.png using Guid(718dc31aa77661d41a92251f6d141ab7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1267a01bcad5d7ccf1d92a6e4015623') in 0.011109 seconds
+  Import took 0.013582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Animation/100211_0_25_046.png
+  artifactKey: Guid(a757c994e42bebe4fb728e9d5b426ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_046.png using Guid(a757c994e42bebe4fb728e9d5b426ee8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba73e5eaa16cd664cbbe447a491a26cc') in 0.009787 seconds
+  Import took 0.012219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Animation/100211_0_25_027.png
+  artifactKey: Guid(6584ac7478266fc4aab7847e39fa61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_027.png using Guid(6584ac7478266fc4aab7847e39fa61d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20890afde30ec5e0b57ccba848b9d55a') in 0.009293 seconds
+  Import took 0.011791 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Animation/100211_0_25_026.png
+  artifactKey: Guid(afd24f748c06d6142b4e5a7c97386100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_026.png using Guid(afd24f748c06d6142b4e5a7c97386100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04be1aa21924e2c31f87785f28f43b02') in 0.010340 seconds
+  Import took 0.012571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Animation/100211_0_25_029.png
+  artifactKey: Guid(99413b30767bbad429d132e20bdb84be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_029.png using Guid(99413b30767bbad429d132e20bdb84be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46098ad1987f68becb4df52f1322e1cf') in 0.012114 seconds
+  Import took 0.014361 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Animation/100211_0_25_036.png
+  artifactKey: Guid(3ff0169b66d03454cbbd3a7d90c30a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_036.png using Guid(3ff0169b66d03454cbbd3a7d90c30a11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4be628fd8a32498ff6cf3540f6773f1c') in 0.008997 seconds
+  Import took 0.011202 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Animation/100211_0_25_019.png
+  artifactKey: Guid(77fd0f8c2f312ee4ab3949ca2b899e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_019.png using Guid(77fd0f8c2f312ee4ab3949ca2b899e19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139936390f33c3154ffae30ef33fd910') in 0.010092 seconds
+  Import took 0.012228 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Animation/100211_0_25_022.png
+  artifactKey: Guid(0c876e94dc357b64a96a32dca908a786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_022.png using Guid(0c876e94dc357b64a96a32dca908a786) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec959783fb2d898dfc7434acefc125e4') in 0.008698 seconds
+  Import took 0.010784 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Animation/100211_0_25_041.png
+  artifactKey: Guid(1c9859377a8504946b7fbacbfaaf8923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_041.png using Guid(1c9859377a8504946b7fbacbfaaf8923) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a80a302d9cbc256f8f61c4b83ddbc85') in 0.011916 seconds
+  Import took 0.013921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.751493 seconds.
+  path: Assets/Animation/New Animation.anim
+  artifactKey: Guid(8e4cb5f2667fc084eb674947833b95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/New Animation.anim using Guid(8e4cb5f2667fc084eb674947833b95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257fd93df3d69c83649932fd10d77512') in 0.007985 seconds
+  Import took 0.010641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 155.309221 seconds.
+  path: Assets/Animation/100211_0_25_020.controller
+  artifactKey: Guid(a431a9917828c504fa6ef2f000630418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_020.controller using Guid(a431a9917828c504fa6ef2f000630418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2e3852622ea32fa6f675816fd131a2f') in 0.004275 seconds
+  Import took 0.006991 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.929801 seconds.
+  path: Assets/Animation/Player.controller
+  artifactKey: Guid(a431a9917828c504fa6ef2f000630418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Player.controller using Guid(a431a9917828c504fa6ef2f000630418) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fae22b1110aac9bd8abddeddf69e2c97') in 0.005461 seconds
+  Import took 0.008010 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.454360 seconds.
+  path: Assets/Animation/YUI_idle.anim
+  artifactKey: Guid(57e9b3aa06c88414784fed6ac7a7e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/YUI_idle.anim using Guid(57e9b3aa06c88414784fed6ac7a7e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4947452f44cec0eb3da413fe1f47b2') in 0.006402 seconds
+  Import took 0.009422 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000711 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.599 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 1.916100 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.064400 ms MarkObjects: 1.530200 ms  DeleteObjects: 0.111300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.671250 seconds.
+  path: Assets/Animation/New Animation.anim
+  artifactKey: Guid(8e4cb5f2667fc084eb674947833b95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/New Animation.anim using Guid(8e4cb5f2667fc084eb674947833b95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9d5b2b5a7a65fb2e56fb0585b724f7') in 0.011352 seconds
+  Import took 0.013992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Animation/New Animation.anim
+  artifactKey: Guid(8e4cb5f2667fc084eb674947833b95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/New Animation.anim using Guid(8e4cb5f2667fc084eb674947833b95a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b9d5b2b5a7a65fb2e56fb0585b724f7') in 0.001768 seconds
+  Import took 0.003538 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.569 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.33 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 2.159400 ms (FindLiveObjects: 0.237500 ms CreateObjectMapping: 0.042400 ms MarkObjects: 1.789200 ms  DeleteObjects: 0.089500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.276493 seconds.
+  path: Assets/Animation/100211_0_25_020.controller
+  artifactKey: Guid(5122bfb159034904cb1cfb5ee2d680a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_020.controller using Guid(5122bfb159034904cb1cfb5ee2d680a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f542e88a3e0ec787bc1b451074365a') in 0.009152 seconds
+  Import took 0.011868 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.580 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.7 MB.
+System memory in use after: 90.7 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2321.
+Total: 2.072300 ms (FindLiveObjects: 0.324700 ms CreateObjectMapping: 0.047700 ms MarkObjects: 1.593000 ms  DeleteObjects: 0.106000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 48.203659 seconds.
+  path: Assets/Sprite
+  artifactKey: Guid(9eda1b69b1ae4d3478b6a68744b7c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite using Guid(9eda1b69b1ae4d3478b6a68744b7c5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8423236d12548b5df45d1fc882372486') in 0.007651 seconds
+  Import took 0.010165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.181677 seconds.
+  path: Assets/Sprite/idle
+  artifactKey: Guid(acd88491654f07a4bb571318f9ff4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle using Guid(acd88491654f07a4bb571318f9ff4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005759dc6d90bdf057d4531ef54fa49') in 0.005286 seconds
+  Import took 0.007949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003401 seconds.
+  path: Assets/Sprite/idle
+  artifactKey: Guid(acd88491654f07a4bb571318f9ff4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle using Guid(acd88491654f07a4bb571318f9ff4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a005759dc6d90bdf057d4531ef54fa49') in 0.002146 seconds
+  Import took 0.004518 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.923266 seconds.
+  path: Assets/Sprite/idle/images
+  artifactKey: Guid(3c06e2f804e98d9419828a117b8eb6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/images using Guid(3c06e2f804e98d9419828a117b8eb6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e1e7fb65e46baa051571ae1b9a6787f') in 0.005227 seconds
+  Import took 0.007602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.673844 seconds.
+  path: Assets/Sprite/idle/idle
+  artifactKey: Guid(411f76f2cf645b341ae05c5483088d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/idle using Guid(411f76f2cf645b341ae05c5483088d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c36713e7311cef8cdddc9e825dd7867') in 0.005765 seconds
+  Import took 0.008185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.991859 seconds.
+  path: Assets/Sprite/idle/Yui_idle
+  artifactKey: Guid(411f76f2cf645b341ae05c5483088d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle using Guid(411f76f2cf645b341ae05c5483088d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d34d4ed43b5aa834ae1d8c68ffd5a55') in 0.005570 seconds
+  Import took 0.007958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.240875 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_000.png
+  artifactKey: Guid(631738d2d0cd5594eb7dd49df2e90fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_000.png using Guid(631738d2d0cd5594eb7dd49df2e90fe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba656426b37555ee14a994432482755d') in 0.042211 seconds
+  Import took 0.044823 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_029.png
+  artifactKey: Guid(98edadb7d8d90744f8db5df02e623ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_029.png using Guid(98edadb7d8d90744f8db5df02e623ba7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5160000351872cdf09c18a931fb7826') in 0.017445 seconds
+  Import took 0.019875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_038.png
+  artifactKey: Guid(d67c1e90bd0d71843b17fcd1281a1843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_038.png using Guid(d67c1e90bd0d71843b17fcd1281a1843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891a5e17e399d852747241c7185d16cc') in 0.010093 seconds
+  Import took 0.012232 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_024.png
+  artifactKey: Guid(de16fc05be53e074b9e5a631db7afc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_024.png using Guid(de16fc05be53e074b9e5a631db7afc4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ba8cfbd9bb80dc718499eca455594fd') in 0.017589 seconds
+  Import took 0.020182 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_012.png
+  artifactKey: Guid(1d67bd89d2eba664bab41eba093ebe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_012.png using Guid(1d67bd89d2eba664bab41eba093ebe1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2a6b8f1f799151e9ff69a9f0b90a1a') in 0.009595 seconds
+  Import took 0.011589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_016.png
+  artifactKey: Guid(1f93582580d53854d8972cde1f532445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_016.png using Guid(1f93582580d53854d8972cde1f532445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fad66acbe39736c5b4d33c7a483ac41') in 0.017266 seconds
+  Import took 0.020005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_043.png
+  artifactKey: Guid(ea0c022e8d0b78d4da71bd22ac2d5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_043.png using Guid(ea0c022e8d0b78d4da71bd22ac2d5f6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1915343827eb87a74d502e1e5cf478b4') in 0.008697 seconds
+  Import took 0.010969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_035.png
+  artifactKey: Guid(0a78f0aeb18ad354da57c97b4f0fdf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_035.png using Guid(0a78f0aeb18ad354da57c97b4f0fdf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc0ef9f5018ddfe327fc1bceb8ba52d') in 0.008780 seconds
+  Import took 0.011007 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_025.png
+  artifactKey: Guid(30b463a3b97968e4ebc86b498689090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_025.png using Guid(30b463a3b97968e4ebc86b498689090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79e801af2618489ca3490c510509727') in 0.010141 seconds
+  Import took 0.012458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_034.png
+  artifactKey: Guid(21f3438e5f308f941841208130bcfd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_034.png using Guid(21f3438e5f308f941841208130bcfd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b99b38e05a0ac579ce493a7fc1b14e3') in 0.011582 seconds
+  Import took 0.014211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_026.png
+  artifactKey: Guid(21b81540ed03e0f46baa902a84af5e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_026.png using Guid(21b81540ed03e0f46baa902a84af5e8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9009a8161830a84a60df8636463f8f29') in 0.010770 seconds
+  Import took 0.013130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_010.png
+  artifactKey: Guid(c9e5d80e41653da458d26f8a0f726649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_010.png using Guid(c9e5d80e41653da458d26f8a0f726649) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee02caa8f28412a2480fa223a1c80e1') in 0.008941 seconds
+  Import took 0.011567 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_013.png
+  artifactKey: Guid(119a30fc5253dce4485378a9dadaf4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_013.png using Guid(119a30fc5253dce4485378a9dadaf4e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '051d9e24cc6ce734c65c75ef3f5d4353') in 0.016802 seconds
+  Import took 0.019460 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_023.png
+  artifactKey: Guid(f9bad068777cf1e46ac299ab87568cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_023.png using Guid(f9bad068777cf1e46ac299ab87568cdd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9488b2a054040894801fca45bb5779e8') in 0.011030 seconds
+  Import took 0.013121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_044.png
+  artifactKey: Guid(b2e024d9a4ec20f49a23f9d1d0768789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_044.png using Guid(b2e024d9a4ec20f49a23f9d1d0768789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8f22e5df3a4df7edfc134cf8c3386e6') in 0.009315 seconds
+  Import took 0.011425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_046.png
+  artifactKey: Guid(cf532606915dc68458d17eea4cc85770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_046.png using Guid(cf532606915dc68458d17eea4cc85770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660aa61fa3b33228337221249749daf0') in 0.016277 seconds
+  Import took 0.018798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_018.png
+  artifactKey: Guid(938dc1ea4703b0648a3d0b5548a89972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_018.png using Guid(938dc1ea4703b0648a3d0b5548a89972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1168ef4da2ca6cf4cbcb18c46baa56') in 0.012188 seconds
+  Import took 0.014646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_015.png
+  artifactKey: Guid(88be347a5b8c1694cae8366599023af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_015.png using Guid(88be347a5b8c1694cae8366599023af0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8113500c68e45edfc413ad4d29c2cb26') in 0.012148 seconds
+  Import took 0.014305 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_037.png
+  artifactKey: Guid(142abe8d9471f7f45bc9a57b0c49cdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_037.png using Guid(142abe8d9471f7f45bc9a57b0c49cdb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '463bfb401dc067d3f10af2f9cc86bcd5') in 0.017391 seconds
+  Import took 0.019967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_006.png
+  artifactKey: Guid(c6ace75c296bf9c4794403c6a195e09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_006.png using Guid(c6ace75c296bf9c4794403c6a195e09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44321a02f0b30d7ceaf5634a6db075cb') in 0.010732 seconds
+  Import took 0.013114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_014.png
+  artifactKey: Guid(c9c7b48ce3cdb3045a46c79c8fb5ed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_014.png using Guid(c9c7b48ce3cdb3045a46c79c8fb5ed04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5b4ffbd475087bbbfb4aa4330413803') in 0.011133 seconds
+  Import took 0.013713 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_002.png
+  artifactKey: Guid(fdbf7a6076c850845a1f6661d59d927e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_002.png using Guid(fdbf7a6076c850845a1f6661d59d927e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d30b82190497a57787ed35050a4cefd') in 0.012538 seconds
+  Import took 0.015243 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000123 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_022.png
+  artifactKey: Guid(95d7cf43d9cec8047873099c9c2871d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_022.png using Guid(95d7cf43d9cec8047873099c9c2871d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1806340c8444dc8c3477a2ef1c11de40') in 0.009189 seconds
+  Import took 0.011155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_030.png
+  artifactKey: Guid(6f22b86f304b6b14c946ca4e3c8bb019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_030.png using Guid(6f22b86f304b6b14c946ca4e3c8bb019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eae02b347d35c00ad6c1e4c1a52dfeac') in 0.009513 seconds
+  Import took 0.011875 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000163 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_032.png
+  artifactKey: Guid(1ef1408b692df234ab8d469b1387f185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_032.png using Guid(1ef1408b692df234ab8d469b1387f185) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39596c874298b172bedbb46c5d91be2a') in 0.011092 seconds
+  Import took 0.013587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_011.png
+  artifactKey: Guid(bd73d2381f220a7459b391f4425d9a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_011.png using Guid(bd73d2381f220a7459b391f4425d9a4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32b2a50e4ea839325fb73f31ff55c989') in 0.013748 seconds
+  Import took 0.015888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_001.png
+  artifactKey: Guid(1bb0b30abd0114c47a03aa9f0020dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_001.png using Guid(1bb0b30abd0114c47a03aa9f0020dc9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12c9a5ece4c07495696d5c1e8e603eac') in 0.008975 seconds
+  Import took 0.011288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_009.png
+  artifactKey: Guid(abb711a0c4960484db86f17ab3a0db13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_009.png using Guid(abb711a0c4960484db86f17ab3a0db13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ecdae3813992795c4ed7f8a94cb919') in 0.010419 seconds
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_033.png
+  artifactKey: Guid(e763f0a333f37a54daaf7ce7908fb950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_033.png using Guid(e763f0a333f37a54daaf7ce7908fb950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'febd9841c5eb372b7d51baa9d8d64199') in 0.010030 seconds
+  Import took 0.012230 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_031.png
+  artifactKey: Guid(0a1c87792df675c4db4c52be6087c90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_031.png using Guid(0a1c87792df675c4db4c52be6087c90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd84e49abea848a4b7bb2f1a93443e9') in 0.009714 seconds
+  Import took 0.011952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_021.png
+  artifactKey: Guid(7bbf713f627d0ac4c9b4ff2ecda2c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_021.png using Guid(7bbf713f627d0ac4c9b4ff2ecda2c988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323ecf1cf7e18251130c086efb0d0e5c') in 0.009220 seconds
+  Import took 0.011466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_039.png
+  artifactKey: Guid(cfe14169bb907234283ca61f69ede9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_039.png using Guid(cfe14169bb907234283ca61f69ede9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50714cfe58ec78cc82cca6683d20f03') in 0.009125 seconds
+  Import took 0.011289 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_040.png
+  artifactKey: Guid(ea536100319773e4497bf86a25c0f80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_040.png using Guid(ea536100319773e4497bf86a25c0f80d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c05698b7433503f3299fbe20f62acde2') in 0.014123 seconds
+  Import took 0.016273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_041.png
+  artifactKey: Guid(b0edeb5dab30ac54085571817bf0ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_041.png using Guid(b0edeb5dab30ac54085571817bf0ee73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8f167246b6855058d50a1a0da9acc48') in 0.009018 seconds
+  Import took 0.011080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_020.png
+  artifactKey: Guid(5b74adc9879122b47b0cd814ea652386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_020.png using Guid(5b74adc9879122b47b0cd814ea652386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a787a70dca2f5f832a99035c7f1e82c4') in 0.010753 seconds
+  Import took 0.012825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_036.png
+  artifactKey: Guid(2c7fbd1b5190ece49aed0d9c829a560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_036.png using Guid(2c7fbd1b5190ece49aed0d9c829a560e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd10884aca60f2a3d4eb2c2754a95ba34') in 0.009138 seconds
+  Import took 0.011259 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_027.png
+  artifactKey: Guid(b0898b2399c72d742b39596b0f39893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_027.png using Guid(b0898b2399c72d742b39596b0f39893c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a9f5a2e07b1bb47c1d94b3a4be78c3b') in 0.009143 seconds
+  Import took 0.011336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_019.png
+  artifactKey: Guid(9fb0562c2f72f834ba3ced913492e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_019.png using Guid(9fb0562c2f72f834ba3ced913492e20b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39e99748ff6b2d54f1e3c51458b49f99') in 0.011303 seconds
+  Import took 0.013422 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_008.png
+  artifactKey: Guid(7825693fea5c8cf41be9e8dd9d55466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_008.png using Guid(7825693fea5c8cf41be9e8dd9d55466e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90841f9ff9d3b922142b9c521aa286a') in 0.009148 seconds
+  Import took 0.011212 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_042.png
+  artifactKey: Guid(4703ad78c79318044a754b74e2a50e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_042.png using Guid(4703ad78c79318044a754b74e2a50e55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c2b6d6cafe19e2f96060f52008e419c') in 0.011438 seconds
+  Import took 0.013715 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_017.png
+  artifactKey: Guid(46aa1d67e15c44b4fbcb6a9764195e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_017.png using Guid(46aa1d67e15c44b4fbcb6a9764195e47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1154b0e1b681aa079671de958e615c9') in 0.011430 seconds
+  Import took 0.013519 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_045.png
+  artifactKey: Guid(d71e62c83d4fe084d82b5fdb5491b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_045.png using Guid(d71e62c83d4fe084d82b5fdb5491b0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61700ac47d76d26307c78456053d0171') in 0.007956 seconds
+  Import took 0.009647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_007.png
+  artifactKey: Guid(53e6851039c83ad49aa8e6eb0245410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_007.png using Guid(53e6851039c83ad49aa8e6eb0245410b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d409420e4ca4aa89f8645e77104ea9') in 0.011430 seconds
+  Import took 0.013582 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_028.png
+  artifactKey: Guid(3759d5276bd44aa4aa7ac372f0a507bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_028.png using Guid(3759d5276bd44aa4aa7ac372f0a507bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074df8a9fa87ab2d2d1bee0c0a863270') in 0.009363 seconds
+  Import took 0.011589 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_005.png
+  artifactKey: Guid(bb25602be6baf0b499b1d48042108bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_005.png using Guid(bb25602be6baf0b499b1d48042108bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c34b967114ea29fbf04c02051adcf18') in 0.010100 seconds
+  Import took 0.012416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_003.png
+  artifactKey: Guid(529aa7af481cb4244a2dd766fde36eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_003.png using Guid(529aa7af481cb4244a2dd766fde36eb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4623321957ee602bee9f687abbe2beda') in 0.008779 seconds
+  Import took 0.011189 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/idle/Yui_idle/100211_0_25_004.png
+  artifactKey: Guid(072ca770423835248b6977c2b0c63591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/idle/Yui_idle/100211_0_25_004.png using Guid(072ca770423835248b6977c2b0c63591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df54ea6cfd4f61b21520a0830cbd485e') in 0.010833 seconds
+  Import took 0.013348 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.394390 seconds.
+  path: Assets/Sprite/Yui_idle
+  artifactKey: Guid(acd88491654f07a4bb571318f9ff4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle using Guid(acd88491654f07a4bb571318f9ff4ec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0341aea6a07500ba31e5e39a4b75bdcb') in 0.002010 seconds
+  Import took 0.004812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.119000 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_000.png
+  artifactKey: Guid(ea1d0e58e62c1f9458b3b9e4f05945ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_000.png using Guid(ea1d0e58e62c1f9458b3b9e4f05945ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f2b4c1d1a57c5ff8bf8b7fcf6b14c69') in 0.013124 seconds
+  Import took 0.015822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_008.png
+  artifactKey: Guid(3002a062c31ccd84ba9429260ba0af85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_008.png using Guid(3002a062c31ccd84ba9429260ba0af85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9510404d7467345b6d7e3735b096b083') in 0.010435 seconds
+  Import took 0.013019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000124 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_001.png
+  artifactKey: Guid(d4d3b685b6fc66f4783ac2c673298ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_001.png using Guid(d4d3b685b6fc66f4783ac2c673298ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '386e65189d030dc8b51dca795a5ad72f') in 0.015208 seconds
+  Import took 0.017747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_021.png
+  artifactKey: Guid(7209885c98fc86345a2a819032a0781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_021.png using Guid(7209885c98fc86345a2a819032a0781d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c13142343019c0f9f7734530d6b90d7') in 0.008454 seconds
+  Import took 0.010481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_042.png
+  artifactKey: Guid(316af41a288e03f43b02dedac76108dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_042.png using Guid(316af41a288e03f43b02dedac76108dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0b10ed95ea75e153e4b373c6cac165') in 0.011261 seconds
+  Import took 0.013746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_002.png
+  artifactKey: Guid(85ba2019640d59a4484cf72e0e604ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_002.png using Guid(85ba2019640d59a4484cf72e0e604ed3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '540a0f74a1ed379d537a1b28853776d5') in 0.010344 seconds
+  Import took 0.012744 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_016.png
+  artifactKey: Guid(1e9b4005edd712349a8de82b921feaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_016.png using Guid(1e9b4005edd712349a8de82b921feaf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee0d4646c1b2fc2f07303d33c321158e') in 0.009385 seconds
+  Import took 0.011508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_010.png
+  artifactKey: Guid(e205eb88a37f37645be8b87855653a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_010.png using Guid(e205eb88a37f37645be8b87855653a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db7e8963a936b316fdb639a2c4f2d15c') in 0.008865 seconds
+  Import took 0.011610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_005.png
+  artifactKey: Guid(7ece64d32db016d40a72d98ba79a6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_005.png using Guid(7ece64d32db016d40a72d98ba79a6c07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7846c06d2c9b2e98d39b6511cf055ff') in 0.008894 seconds
+  Import took 0.011297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_026.png
+  artifactKey: Guid(af332f26ca502a2498ee020e0a8e1bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_026.png using Guid(af332f26ca502a2498ee020e0a8e1bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '973ce5aabf741f3da11fd46d7770aaa0') in 0.010239 seconds
+  Import took 0.012443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_012.png
+  artifactKey: Guid(78cbfff63a65e20468d11a19a90586f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_012.png using Guid(78cbfff63a65e20468d11a19a90586f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2aa82d6af0bfce66ac258f80a34ae32') in 0.009091 seconds
+  Import took 0.011550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_004.png
+  artifactKey: Guid(e69db8eeab476954d92362a8b7a5af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_004.png using Guid(e69db8eeab476954d92362a8b7a5af3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eaa51bc9d76c2dbd11f579035ba621a') in 0.010999 seconds
+  Import took 0.013239 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_038.png
+  artifactKey: Guid(61fcc5a142fd4c442ade6efb0cb44dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_038.png using Guid(61fcc5a142fd4c442ade6efb0cb44dd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83706966171874c7f129cf361d00259e') in 0.008306 seconds
+  Import took 0.010278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_045.png
+  artifactKey: Guid(868b6208fb24f44448872860df905acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_045.png using Guid(868b6208fb24f44448872860df905acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db884a02fb203ec27b6915513e20b572') in 0.010462 seconds
+  Import took 0.012841 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_020.png
+  artifactKey: Guid(f13d9a83f03935244b5bc902c897ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_020.png using Guid(f13d9a83f03935244b5bc902c897ea65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f722f5761dd926e196b794b003888a58') in 0.008477 seconds
+  Import took 0.010884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_014.png
+  artifactKey: Guid(f58e302172e0bd448a7469044025eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_014.png using Guid(f58e302172e0bd448a7469044025eb28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edbfcd31ffa39fd8e5886713ddbdb15e') in 0.010678 seconds
+  Import took 0.012915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_007.png
+  artifactKey: Guid(75c798951247e944faf6a254c550f070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_007.png using Guid(75c798951247e944faf6a254c550f070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f17ed8fcf61f6276650824997fe0f9a') in 0.011257 seconds
+  Import took 0.014401 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_034.png
+  artifactKey: Guid(a9944842fe3682f40810623d47300ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_034.png using Guid(a9944842fe3682f40810623d47300ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b3fad5baf7ff25922dc0df0e6640039') in 0.011546 seconds
+  Import took 0.014134 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_006.png
+  artifactKey: Guid(3edac8f6beac6e94f96866ebd95251a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_006.png using Guid(3edac8f6beac6e94f96866ebd95251a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa14cec01523b905f55fac07ab13c434') in 0.012064 seconds
+  Import took 0.014521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_003.png
+  artifactKey: Guid(3d24f935603239e44be60beb811daba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_003.png using Guid(3d24f935603239e44be60beb811daba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3d2b6d71043a4039b7b7c6a5f9e7db9') in 0.009477 seconds
+  Import took 0.011670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_024.png
+  artifactKey: Guid(29f9a19f88baf644886a2d479268b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_024.png using Guid(29f9a19f88baf644886a2d479268b5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fad70eac5101361f18965bab1030c10d') in 0.010100 seconds
+  Import took 0.012315 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_023.png
+  artifactKey: Guid(e1240103f32ed33458a7042c5123e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_023.png using Guid(e1240103f32ed33458a7042c5123e9b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0a1ebf5b7212ac6b4ec392c8d92f62a') in 0.009783 seconds
+  Import took 0.012334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_031.png
+  artifactKey: Guid(c16bf88cd305a704983f957fc1f62a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_031.png using Guid(c16bf88cd305a704983f957fc1f62a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a1087c0a37393bad23fe9d7b339ed30') in 0.008503 seconds
+  Import took 0.010830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000128 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_041.png
+  artifactKey: Guid(db32a4d25a4c798418a63c54995246b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_041.png using Guid(db32a4d25a4c798418a63c54995246b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8a8dbc842f0dd6268f62a5c5b7f0b8') in 0.008796 seconds
+  Import took 0.011196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_017.png
+  artifactKey: Guid(3a56f1dc9ee1d92489e166b23dd72b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_017.png using Guid(3a56f1dc9ee1d92489e166b23dd72b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25ef850515bf50cf1e5125ab2e131e8') in 0.011170 seconds
+  Import took 0.013448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_015.png
+  artifactKey: Guid(47b2575688db6ff419098fd0256c9591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_015.png using Guid(47b2575688db6ff419098fd0256c9591) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6d9db13e13bf380ae53fffedf76b4e') in 0.010848 seconds
+  Import took 0.013347 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_027.png
+  artifactKey: Guid(7663d4dd9deb21140bd36b9c4ae85687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_027.png using Guid(7663d4dd9deb21140bd36b9c4ae85687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cf3cd83126e1bcfe969b885bb6bf30') in 0.009313 seconds
+  Import took 0.012304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_032.png
+  artifactKey: Guid(039e882e95b7f6a4c906a93b742b79f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_032.png using Guid(039e882e95b7f6a4c906a93b742b79f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '187e58c7bb5e7d3f2185e192332e7cfe') in 0.010260 seconds
+  Import took 0.012468 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_028.png
+  artifactKey: Guid(e2428edc57811b34e9f30647e5a7c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_028.png using Guid(e2428edc57811b34e9f30647e5a7c3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc289930364638a5abeb215705ef0bb9') in 0.011236 seconds
+  Import took 0.013383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_033.png
+  artifactKey: Guid(1dc67ce78f3debb4b90a2d38795575e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_033.png using Guid(1dc67ce78f3debb4b90a2d38795575e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21c734ad534c0c73cbd8e5bd9f027eb0') in 0.008535 seconds
+  Import took 0.010754 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_035.png
+  artifactKey: Guid(a1e8b258c5de0184893038f745e0de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_035.png using Guid(a1e8b258c5de0184893038f745e0de9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17242377d655c05a8c114d3cc3166dd5') in 0.008561 seconds
+  Import took 0.010886 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_046.png
+  artifactKey: Guid(3b1a62189d2b5cd4db918e14fac95207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_046.png using Guid(3b1a62189d2b5cd4db918e14fac95207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a328115717c8abec34493e6631178dc5') in 0.009166 seconds
+  Import took 0.011340 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_025.png
+  artifactKey: Guid(6f0cbf9181d61ca4abb14b9f226a8119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_025.png using Guid(6f0cbf9181d61ca4abb14b9f226a8119) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67563708cd080e8334b697dad11b5f36') in 0.009458 seconds
+  Import took 0.011602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_009.png
+  artifactKey: Guid(45a826b43f9ffc547a8a65021f0b055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_009.png using Guid(45a826b43f9ffc547a8a65021f0b055f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44c414c13db959de7bfbf8371f612b0') in 0.008951 seconds
+  Import took 0.011448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_011.png
+  artifactKey: Guid(4969c4a0486ba944ead6784843398095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_011.png using Guid(4969c4a0486ba944ead6784843398095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e81de0b580bc508b956180b294905f') in 0.008695 seconds
+  Import took 0.011336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_030.png
+  artifactKey: Guid(09d66e91a5b80e042acba33f5a38cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_030.png using Guid(09d66e91a5b80e042acba33f5a38cccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11565368c8cf41ef4fcea7f28b9f578d') in 0.008667 seconds
+  Import took 0.010930 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_029.png
+  artifactKey: Guid(a2b85827fd2fc1e4e9bfea8bb7d199f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_029.png using Guid(a2b85827fd2fc1e4e9bfea8bb7d199f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8417450b01ba49aa2765939b883c2155') in 0.012366 seconds
+  Import took 0.014538 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_036.png
+  artifactKey: Guid(81f6083641bc5f3418bc34949953b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_036.png using Guid(81f6083641bc5f3418bc34949953b393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df3256776028b16028a82a9cbd677f5') in 0.010006 seconds
+  Import took 0.012467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_039.png
+  artifactKey: Guid(8a1750f1b258ade408e6d130374a9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_039.png using Guid(8a1750f1b258ade408e6d130374a9d21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bd428265274b0eedc1af15a0bcbff4') in 0.008874 seconds
+  Import took 0.011049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_043.png
+  artifactKey: Guid(cc239a540c21e75488ca6afe2e38c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_043.png using Guid(cc239a540c21e75488ca6afe2e38c439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '001187226a3bfdb0ce47af58aafd9810') in 0.008270 seconds
+  Import took 0.010586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_022.png
+  artifactKey: Guid(5f656875f98210b47a0869f99db0f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_022.png using Guid(5f656875f98210b47a0869f99db0f1dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeb94e64ec0158f07bd7a90ee4dd139') in 0.010414 seconds
+  Import took 0.013080 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_044.png
+  artifactKey: Guid(c637d978192d435489f2571686ba678d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_044.png using Guid(c637d978192d435489f2571686ba678d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0aef1708941aaaf622ebb2633917483') in 0.009272 seconds
+  Import took 0.011610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_019.png
+  artifactKey: Guid(0758d354f5f22fb408217253f81348c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_019.png using Guid(0758d354f5f22fb408217253f81348c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53d394b7988ede909a45921c2e410669') in 0.011490 seconds
+  Import took 0.013832 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_013.png
+  artifactKey: Guid(562212ca9980c9b47890fee835dbbf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_013.png using Guid(562212ca9980c9b47890fee835dbbf9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65cb475f02eee89aee0867d9927b96d2') in 0.010688 seconds
+  Import took 0.013423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_037.png
+  artifactKey: Guid(07b83a993f193b44893ff69c77923660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_037.png using Guid(07b83a993f193b44893ff69c77923660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e62cc94537365d6e7a9948ccc3be12ee') in 0.011960 seconds
+  Import took 0.014093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_040.png
+  artifactKey: Guid(5d0c5ecd4421e8442ae98ddfe5951830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_040.png using Guid(5d0c5ecd4421e8442ae98ddfe5951830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f15136f4240b5d96d7e36052df1b700c') in 0.008640 seconds
+  Import took 0.010740 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprite/Yui_idle/100211_0_25_018.png
+  artifactKey: Guid(4504bda55d3f98745ba872514f1b1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_idle/100211_0_25_018.png using Guid(4504bda55d3f98745ba872514f1b1729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13f836dbf19f40d6d89ecf0a245afc6c') in 0.011419 seconds
+  Import took 0.013553 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.554968 seconds.
+  path: Assets/Animation/Yui_idle.anim
+  artifactKey: Guid(57e9b3aa06c88414784fed6ac7a7e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Yui_idle.anim using Guid(57e9b3aa06c88414784fed6ac7a7e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffd7ea4219a19abe3e2c3fd530d9766') in 0.002440 seconds
+  Import took 0.004848 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002744 seconds.
+  path: Assets/Animation/Yui_idle.anim
+  artifactKey: Guid(57e9b3aa06c88414784fed6ac7a7e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Yui_idle.anim using Guid(57e9b3aa06c88414784fed6ac7a7e02e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffd7ea4219a19abe3e2c3fd530d9766') in 0.001982 seconds
+  Import took 0.004123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.333772 seconds.
+  path: Assets/Animation/100211_0_25_000.controller
+  artifactKey: Guid(d1e1476baa2b51c4d8d7a042a3dc1229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_000.controller using Guid(d1e1476baa2b51c4d8d7a042a3dc1229) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08857dfc0d159596dea51bc1d81e107b') in 0.006022 seconds
+  Import took 0.008791 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000485 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.571 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 2.652500 ms (FindLiveObjects: 0.199100 ms CreateObjectMapping: 0.041700 ms MarkObjects: 2.082700 ms  DeleteObjects: 0.328200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000661 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.561 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.8 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 1.814100 ms (FindLiveObjects: 0.194300 ms CreateObjectMapping: 0.040500 ms MarkObjects: 1.487400 ms  DeleteObjects: 0.091200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.219596 seconds.
+  path: Assets/Sprite/Yui_attack
+  artifactKey: Guid(b3432692ba7ee1a428e3fdf03abec4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack using Guid(b3432692ba7ee1a428e3fdf03abec4bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e73538ec34e9e2c4ebc2053a1d36429') in 0.008610 seconds
+  Import took 0.011394 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.102596 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_000.png
+  artifactKey: Guid(d593e3dd2d96b7f428ecc11a0ff29d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_000.png using Guid(d593e3dd2d96b7f428ecc11a0ff29d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aa9a43515e31e7a828b18cd425e21f6') in 0.043138 seconds
+  Import took 0.045745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_011.png
+  artifactKey: Guid(1c4bfd4ba19316d48879171964c0288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_011.png using Guid(1c4bfd4ba19316d48879171964c0288e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '711d73bdecd69d7dcb8876dcf1b57c33') in 0.014807 seconds
+  Import took 0.017020 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_014.png
+  artifactKey: Guid(fbc4dd51b6281bf448ed80ddb848607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_014.png using Guid(fbc4dd51b6281bf448ed80ddb848607f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ddbae0fe1871f023f0d5c12f193108') in 0.010331 seconds
+  Import took 0.012491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_024.png
+  artifactKey: Guid(38100cac0d31d8a4bbed8b3449ab8c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_024.png using Guid(38100cac0d31d8a4bbed8b3449ab8c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11759f38b7dc933eaddef78014cea961') in 0.008610 seconds
+  Import took 0.010524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_009.png
+  artifactKey: Guid(dcd9685f46ef0c049877241c91d3c096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_009.png using Guid(dcd9685f46ef0c049877241c91d3c096) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ece4e42d59d977d95a1fc5b8b1d6242') in 0.010254 seconds
+  Import took 0.012104 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_041.png
+  artifactKey: Guid(dee3843f9fcd6be4fadd78f32588ba4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_041.png using Guid(dee3843f9fcd6be4fadd78f32588ba4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b83f3a850f512506da5784303852b951') in 0.011335 seconds
+  Import took 0.013716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_019.png
+  artifactKey: Guid(b5e90a174d3ebcd4d94b9d24fa582273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_019.png using Guid(b5e90a174d3ebcd4d94b9d24fa582273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8076be524d91b5260964788acbe23ac2') in 0.009918 seconds
+  Import took 0.012242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_042.png
+  artifactKey: Guid(23ae8bf8521cb7b43a672c0c5e7181b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_042.png using Guid(23ae8bf8521cb7b43a672c0c5e7181b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '856e4280a05a79eac144511c6cd23559') in 0.011772 seconds
+  Import took 0.014271 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_043.png
+  artifactKey: Guid(a7c8f570ff8aa68468332eae2c4f796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_043.png using Guid(a7c8f570ff8aa68468332eae2c4f796d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313214b55460346e30c91cecbae8d064') in 0.021432 seconds
+  Import took 0.023898 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_002.png
+  artifactKey: Guid(ef7522a3982f81d478f58b53057227bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_002.png using Guid(ef7522a3982f81d478f58b53057227bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1d75fc1b10ed9882759cf64df1bebd') in 0.009489 seconds
+  Import took 0.011591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_016.png
+  artifactKey: Guid(b292e7a577cf6d946b34ca4ebeeba6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_016.png using Guid(b292e7a577cf6d946b34ca4ebeeba6b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e616f5934f23bbea938a880b16f68fc0') in 0.011018 seconds
+  Import took 0.013154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_046.png
+  artifactKey: Guid(8bee3a3f6e4fbb14e8a3c100d4e64225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_046.png using Guid(8bee3a3f6e4fbb14e8a3c100d4e64225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceaccd54d3910d3db48f38775ab6d90') in 0.015919 seconds
+  Import took 0.018051 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_001.png
+  artifactKey: Guid(7424a807d7720bf41993cb855121a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_001.png using Guid(7424a807d7720bf41993cb855121a758) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2c8d98b7aae0c04ee6395154979df1') in 0.012084 seconds
+  Import took 0.014199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000147 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_039.png
+  artifactKey: Guid(67b9e492796083c498c6329507d31507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_039.png using Guid(67b9e492796083c498c6329507d31507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '444e52cf3dfb8bd1a2ab2da9397d9a42') in 0.009333 seconds
+  Import took 0.011304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_018.png
+  artifactKey: Guid(25989d67d7d5aeb4a95e068c45805de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_018.png using Guid(25989d67d7d5aeb4a95e068c45805de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cbac9cfc131994b429e9986966b7ce7') in 0.009840 seconds
+  Import took 0.011778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_047.png
+  artifactKey: Guid(6e885aa9d7ce3254fa5f98984a44dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_047.png using Guid(6e885aa9d7ce3254fa5f98984a44dff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c5d196e955e92b17058256c992708c2') in 0.009491 seconds
+  Import took 0.011621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_050.png
+  artifactKey: Guid(9b7aea7952618c0468746df4f30831ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_050.png using Guid(9b7aea7952618c0468746df4f30831ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '961386856d5f021545adf853c2aa2403') in 0.009644 seconds
+  Import took 0.011815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_003.png
+  artifactKey: Guid(055b19018bf617c40857c0b79da3e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_003.png using Guid(055b19018bf617c40857c0b79da3e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8536643af499263690f242c50cf06e9b') in 0.039001 seconds
+  Import took 0.041132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_028.png
+  artifactKey: Guid(1a000e226a197ba49991581d47406c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_028.png using Guid(1a000e226a197ba49991581d47406c17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae19dc3a73b90968bbaa5bbad399cfd0') in 0.009406 seconds
+  Import took 0.011252 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_022.png
+  artifactKey: Guid(d0dc428847881d44894155895637937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_022.png using Guid(d0dc428847881d44894155895637937b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '328086e54d24ce9698e7211fb193a7df') in 0.009615 seconds
+  Import took 0.011520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_007.png
+  artifactKey: Guid(f56a2f148023c3e4088d39834be76a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_007.png using Guid(f56a2f148023c3e4088d39834be76a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15f5a74003dbb544c0487358c1083ad') in 0.013686 seconds
+  Import took 0.015642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_020.png
+  artifactKey: Guid(f7e252a92e196fd49a459ef4962f9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_020.png using Guid(f7e252a92e196fd49a459ef4962f9ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '569a71f01080a2026641ee3827d234b1') in 0.009333 seconds
+  Import took 0.011310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_036.png
+  artifactKey: Guid(d5cab4436d30c8748a876f5c7f09bff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_036.png using Guid(d5cab4436d30c8748a876f5c7f09bff9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25bec3c0026ee3ca7e4850d1d6f6bd8a') in 0.011463 seconds
+  Import took 0.013512 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_013.png
+  artifactKey: Guid(7631ba744865473458bc921fcdb80ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_013.png using Guid(7631ba744865473458bc921fcdb80ddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b74990216473da5bf976eb98abdcc518') in 0.009851 seconds
+  Import took 0.011923 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_049.png
+  artifactKey: Guid(4c5de9be1e6aaa34ea06ca93ea4e4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_049.png using Guid(4c5de9be1e6aaa34ea06ca93ea4e4b73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0f4f30d781dc59568bc3984d4fd1e9') in 0.011401 seconds
+  Import took 0.013790 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_031.png
+  artifactKey: Guid(20f1854c793e1ed40bc6f8f4ac427448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_031.png using Guid(20f1854c793e1ed40bc6f8f4ac427448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30919f0cb17d10e914fb6a66ed999ed3') in 0.012077 seconds
+  Import took 0.014546 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_012.png
+  artifactKey: Guid(8c8c402caef840645a684604e7bae6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_012.png using Guid(8c8c402caef840645a684604e7bae6a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1615811a35fccd2c2b2c4a7d8dd8960d') in 0.009413 seconds
+  Import took 0.011864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_010.png
+  artifactKey: Guid(b0cd65480085480489de1b7478eda738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_010.png using Guid(b0cd65480085480489de1b7478eda738) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0454dda94a6baea542d5b5525f6145f') in 0.008793 seconds
+  Import took 0.010772 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_006.png
+  artifactKey: Guid(cbeb1c30c82d0f34f9be111825871001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_006.png using Guid(cbeb1c30c82d0f34f9be111825871001) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10e781e962f7462d81d8772c8192f043') in 0.008542 seconds
+  Import took 0.010429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_035.png
+  artifactKey: Guid(f16f2d8807237be4db58cee8a1a41f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_035.png using Guid(f16f2d8807237be4db58cee8a1a41f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132227f4d88f14d04346e3d6e2f634a4') in 0.009407 seconds
+  Import took 0.011337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000135 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_045.png
+  artifactKey: Guid(a550cb6725fccd849ba3cfc749db7d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_045.png using Guid(a550cb6725fccd849ba3cfc749db7d9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b1dd645604f7180c5de43410d1fe039') in 0.009470 seconds
+  Import took 0.011525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_033.png
+  artifactKey: Guid(b5fce080a92910040a5a3a2a09e37e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_033.png using Guid(b5fce080a92910040a5a3a2a09e37e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22e3ab30e33c45e467272de8590d594') in 0.008711 seconds
+  Import took 0.010666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_040.png
+  artifactKey: Guid(0f9c8df7a65291d45b015990db9911ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_040.png using Guid(0f9c8df7a65291d45b015990db9911ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b117fbe8d4a1af3aa3a916e61625ed5') in 0.009356 seconds
+  Import took 0.011321 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000133 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_034.png
+  artifactKey: Guid(db7e118104ac97d4e9731003e7392971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_034.png using Guid(db7e118104ac97d4e9731003e7392971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e07ce02ce39aef02c4529a10a10d5d59') in 0.010331 seconds
+  Import took 0.012416 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_030.png
+  artifactKey: Guid(658757c80f8b4424fbe20c29bf23209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_030.png using Guid(658757c80f8b4424fbe20c29bf23209e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85359450261fe6338140b66cc2add130') in 0.011013 seconds
+  Import took 0.013492 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_017.png
+  artifactKey: Guid(557de8091856140409d2928c0be5f47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_017.png using Guid(557de8091856140409d2928c0be5f47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c93e53bf1f1e9b9178fc48b0e12841') in 0.010519 seconds
+  Import took 0.012828 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_037.png
+  artifactKey: Guid(bdf78645aeafb7d4987c31218c5749b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_037.png using Guid(bdf78645aeafb7d4987c31218c5749b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e9c59064eb312b26faecac26316aaa') in 0.010458 seconds
+  Import took 0.012733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_038.png
+  artifactKey: Guid(d79436485db7120448238b8ec2c37cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_038.png using Guid(d79436485db7120448238b8ec2c37cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54748f33bfdc4356d48f9baf67b7e0ff') in 0.009699 seconds
+  Import took 0.012017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000192 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_044.png
+  artifactKey: Guid(0fa31f88da822ef4e9f9a68c2fd08e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_044.png using Guid(0fa31f88da822ef4e9f9a68c2fd08e80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4359845efba0b4f8658a35dd629e69d4') in 0.009820 seconds
+  Import took 0.012251 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_027.png
+  artifactKey: Guid(bb7fc473b6e23c842a43e26ad3ed2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_027.png using Guid(bb7fc473b6e23c842a43e26ad3ed2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '598f8e79189e200c7f98cc6886d9134c') in 0.015282 seconds
+  Import took 0.017596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_026.png
+  artifactKey: Guid(b3e9d0b8e3b1b304bb85d8277977f016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_026.png using Guid(b3e9d0b8e3b1b304bb85d8277977f016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af2dded9b647ce477f9ac3a1e4fc8d8c') in 0.009281 seconds
+  Import took 0.011461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_029.png
+  artifactKey: Guid(7c92d14a36cf6254295c07272b6434b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_029.png using Guid(7c92d14a36cf6254295c07272b6434b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac05e1c4d883ddcae77cbeea919a687') in 0.008899 seconds
+  Import took 0.011118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_008.png
+  artifactKey: Guid(81058cf3c1fcc0846915dccd45af44e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_008.png using Guid(81058cf3c1fcc0846915dccd45af44e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf1710b2729f68559bc75d900ff8a9e') in 0.008737 seconds
+  Import took 0.010819 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_004.png
+  artifactKey: Guid(aeca5ec597296cb49b13316bcc5a7c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_004.png using Guid(aeca5ec597296cb49b13316bcc5a7c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5dc3149910eeb5d11c1118a0082c3d') in 0.011643 seconds
+  Import took 0.013897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_023.png
+  artifactKey: Guid(16bb6bf42b2197e4f915398d38657c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_023.png using Guid(16bb6bf42b2197e4f915398d38657c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dcad6d92984d096ba99cad03b94cf29') in 0.010470 seconds
+  Import took 0.012789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000165 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_015.png
+  artifactKey: Guid(3e155bcc67966664992cdcf7343404a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_015.png using Guid(3e155bcc67966664992cdcf7343404a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '495b54e407d08a4e74837bc7785b193c') in 0.008716 seconds
+  Import took 0.010783 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_025.png
+  artifactKey: Guid(b57780d50cfd8724eafe586cd79d0b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_025.png using Guid(b57780d50cfd8724eafe586cd79d0b94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7b0f52bf18c00e90100c3eb7a6d9ed') in 0.012880 seconds
+  Import took 0.015055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_021.png
+  artifactKey: Guid(b2fee664d77dc574aadefb28e05e4784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_021.png using Guid(b2fee664d77dc574aadefb28e05e4784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a8034483e673dbbf70e9f08c90716b') in 0.010757 seconds
+  Import took 0.012976 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_005.png
+  artifactKey: Guid(4fee681fc140f9549973715c700a3811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_005.png using Guid(4fee681fc140f9549973715c700a3811) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '841fb0cb4c5ae36eae29b2d2f4beefb3') in 0.013798 seconds
+  Import took 0.016696 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_032.png
+  artifactKey: Guid(e137db26b26a9124a91d209e516e39bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_032.png using Guid(e137db26b26a9124a91d209e516e39bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d548a0c8d1b5ac8033a4ef08f5791ab') in 0.013108 seconds
+  Import took 0.015516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_048.png
+  artifactKey: Guid(afba5c0728aa0b74c9bf16b58799f3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_048.png using Guid(afba5c0728aa0b74c9bf16b58799f3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bf4b154435df5fa85efe546c3926a2') in 0.012296 seconds
+  Import took 0.014944 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.175291 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_051.png
+  artifactKey: Guid(6aa744d06d2ce1b458315cd6b5537416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_051.png using Guid(6aa744d06d2ce1b458315cd6b5537416) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '362c25053c90ccb6a110698ff1601e4f') in 0.013460 seconds
+  Import took 0.016234 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_052.png
+  artifactKey: Guid(52efad6ba588dcf408c806cf936199b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_052.png using Guid(52efad6ba588dcf408c806cf936199b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f773a5a127789f63a2060866864af0') in 0.011159 seconds
+  Import took 0.013555 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_054.png
+  artifactKey: Guid(4380438bcb8aaa34fbac82bfd7357a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_054.png using Guid(4380438bcb8aaa34fbac82bfd7357a87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a10fbe21881d1932b16a76e8509977') in 0.017675 seconds
+  Import took 0.020683 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_052.png
+  artifactKey: Guid(52efad6ba588dcf408c806cf936199b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_052.png using Guid(52efad6ba588dcf408c806cf936199b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60f773a5a127789f63a2060866864af0') in 0.018442 seconds
+  Import took 0.020861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000154 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_055.png
+  artifactKey: Guid(e89d92dec1b8eb248a9909451d5be6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_055.png using Guid(e89d92dec1b8eb248a9909451d5be6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0997b535e0f48d9a294dda406db94c6') in 0.011505 seconds
+  Import took 0.013820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Sprite/Yui_attack/100211_0_25_053.png
+  artifactKey: Guid(e819286b0cc38754b92acaf35c5def0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprite/Yui_attack/100211_0_25_053.png using Guid(e819286b0cc38754b92acaf35c5def0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc504457868311468ddfb15e5f5639ce') in 0.011901 seconds
+  Import took 0.014116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.847564 seconds.
+  path: Assets/Animation/Yui_attack.anim
+  artifactKey: Guid(b30f107837261b74c88231db7a6e42e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Yui_attack.anim using Guid(b30f107837261b74c88231db7a6e42e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858f80e206b610636c89bd2cbc63d52c') in 0.002539 seconds
+  Import took 0.005056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002795 seconds.
+  path: Assets/Animation/Yui_attack.anim
+  artifactKey: Guid(b30f107837261b74c88231db7a6e42e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/Yui_attack.anim using Guid(b30f107837261b74c88231db7a6e42e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858f80e206b610636c89bd2cbc63d52c') in 0.002060 seconds
+  Import took 0.004054 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 90.8 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 2.041400 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.066100 ms MarkObjects: 1.649400 ms  DeleteObjects: 0.096200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000580 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.574 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 90.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
+Total: 2.247600 ms (FindLiveObjects: 0.247400 ms CreateObjectMapping: 0.099400 ms MarkObjects: 1.814800 ms  DeleteObjects: 0.085100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.774492 seconds.
+  path: Assets/Animation/100211_0_25_000 (1).controller
+  artifactKey: Guid(4634109b1a5c8c3498e6d80853a60a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animation/100211_0_25_000 (1).controller using Guid(4634109b1a5c8c3498e6d80853a60a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ab0ecd829ab87c40f0ca3cfc72ad30') in 0.012453 seconds
+  Import took 0.015197 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000584 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.653 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 90.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 2.206500 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.077300 ms MarkObjects: 1.779100 ms  DeleteObjects: 0.106100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000528 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.590 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.34 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 90.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 1.945600 ms (FindLiveObjects: 0.227900 ms CreateObjectMapping: 0.086000 ms MarkObjects: 1.520000 ms  DeleteObjects: 0.111100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000582 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.575 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.32 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 90.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2351.
+Total: 2.327000 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.108400 ms MarkObjects: 1.789900 ms  DeleteObjects: 0.097000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000618 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.573 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.35 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.9 MB.
+System memory in use after: 90.9 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2355.
+Total: 2.029000 ms (FindLiveObjects: 0.286100 ms CreateObjectMapping: 0.123700 ms MarkObjects: 1.524500 ms  DeleteObjects: 0.093900 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
