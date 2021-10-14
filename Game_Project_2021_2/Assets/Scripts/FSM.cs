@@ -11,7 +11,8 @@ public class FSM : MonoBehaviour
     
     public Stat _stat;
 
-    private int health;
+    public int health;
+    [HideInInspector]
     private int TPRegeneration;
     private int defense;
     private int damage;
@@ -29,7 +30,12 @@ public class FSM : MonoBehaviour
     public bool able_to_use_tpskill;
     
     private float timer;
-    private int TP;
+
+    public int TP;
+    [HideInInspector]
+    
+    Animator anim;
+    SpriteRenderer spriteRenderer;
 
     #endregion
 
@@ -137,10 +143,21 @@ public class FSM : MonoBehaviour
 
         m_Death = false;
         able_to_use_tpskill= false;
+        able_to_attack = true;
 
-        attackdelayTime = 1f;
+        attackdelayTime = _stat._AttackdelayTime;
         timer = 0f;
         TP = 0;
+
+        anim = GetComponent<Animator>();
+
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        if(CharacterType == Type.Enemy)
+        {
+            transform.localScale = new Vector3(-1,1,1);
+            spriteRenderer.color = new Color32(255,255,255, 100);
+        } 
     }
 #region State FSM 관련
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -195,6 +212,7 @@ public class FSM : MonoBehaviour
                 break;
             case StateFlow.EXIT:
                 Debug.Log($"<color=yellow>{this.name}</color> - 상태 : {currentState},   상태단계 : {stateFlow}");
+                Move_Exit();
                 break;
         }
     }
@@ -205,6 +223,8 @@ public class FSM : MonoBehaviour
     }
     private void Move_Update()
     {
+        anim.SetBool("isWalk", true);
+
        if(RayCastCheck())
         {
             ChangeState(State.Attack);
@@ -215,6 +235,11 @@ public class FSM : MonoBehaviour
             else
                 this.transform.Translate(Vector3.right*-1 * Time.deltaTime * moveSpeed);
         }
+    }
+    
+    private void Move_Exit()
+    {
+        anim.SetBool("isWalk", false);
     }
 
 
@@ -251,6 +276,7 @@ public class FSM : MonoBehaviour
             {
                 
                 GameObject damagedObject = RayCastCheck().collider.gameObject;
+                anim.SetTrigger("Attack");
                 damagedObject.GetComponent<FSM>().TakeHit(damage);
                 Debug.Log($"공격한 주체 : <color=green>{gameObject.name}</color> 공격받은 대상 : <color=red>{damagedObject.name}</color> - 대상의 남은 체력 : {damagedObject.GetComponent<FSM>().health}");
 
@@ -301,6 +327,7 @@ public class FSM : MonoBehaviour
     }
     private void Death_Enter()
     {
+        anim.SetTrigger("isDie");
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
 
