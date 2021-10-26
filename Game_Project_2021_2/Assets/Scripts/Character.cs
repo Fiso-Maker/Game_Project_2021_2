@@ -15,8 +15,7 @@ public class Character : MonoBehaviour
     RectTransform tpBarPos;
     GameObject tpBar;
 
-    // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         canvas = GameObject.Find("Canvas");
 
@@ -29,6 +28,11 @@ public class Character : MonoBehaviour
         tpBarPos = tpBar.GetComponent<RectTransform>();
 
         hpBar.GetComponent<HPandTP>().a = this.gameObject.GetComponent<FSM>();
+    }
+
+    // Start is called before the first frame update
+    void Start()
+    {
     }
 
     // Update is called once per frame
