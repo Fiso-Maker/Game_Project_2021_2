@@ -27,7 +27,7 @@ public class Character : MonoBehaviour
         tpBar = Instantiate(prfTPBar, canvas.transform);
         tpBarPos = tpBar.GetComponent<RectTransform>();
 
-        hpBar.GetComponent<HPandTP>().a = this.gameObject.GetComponent<FSM>();
+        tpBar.GetComponent<HPandTP>().a = this.gameObject.GetComponent<FSM>();
     }
 
     // Start is called before the first frame update
