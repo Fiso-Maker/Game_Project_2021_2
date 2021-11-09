@@ -6,6 +6,8 @@ public class Character : MonoBehaviour
 {
     public GameObject prfHpBar;
     public GameObject prfTPBar;
+
+    public GameObject prfButton;
     public GameObject canvas;
 
     public RectTransform hpBarPos;
@@ -15,9 +17,16 @@ public class Character : MonoBehaviour
     RectTransform tpBarPos;
     GameObject tpBar;
 
+    GameObject UPButton;
+    RectTransform UPButtonPos;
+
+
     void Awake()
     {
         canvas = GameObject.Find("Canvas");
+
+        UPButton = Instantiate(prfButton, canvas.transform);
+        UPButtonPos = UPButton.GetComponent<RectTransform>();
 
         hpBar = Instantiate(prfHpBar, canvas.transform);
         hpBarPos = hpBar.GetComponent<RectTransform>();
@@ -38,10 +47,13 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Vector3 _hpBarPos = Camera.main.ScreenToWorldPoint(new Vector3());
+        Vector3 _hpBarPos = new Vector3(487,123,0);
         hpBarPos.position = _hpBarPos;
 
         Vector3 _tpBarPos = new Vector3(_hpBarPos.x,_hpBarPos.y-50,_hpBarPos.z);
         tpBarPos.position = _tpBarPos;
+
+        Vector3 Up_ButtonPos = new Vector3(_hpBarPos.x,_hpBarPos.y+125,_hpBarPos.z);
+        UPButtonPos.position = Up_ButtonPos;
     }
 }
