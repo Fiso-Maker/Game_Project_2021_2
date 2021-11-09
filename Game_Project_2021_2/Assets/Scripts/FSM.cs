@@ -2,8 +2,9 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
-// 스킬, 애니메이션 구현 필요
+// 스킬 구현 필요
 
 public class FSM : MonoBehaviour
 {
@@ -128,7 +129,11 @@ public class FSM : MonoBehaviour
 
     private void CommonUpdate()
     {
-        
+        if(able_to_use_tpskill)
+        {
+            var a = this.GetComponent<Character>().UPButton.GetComponent<Image>();
+            a.color = new Color32(255,255,255,255);
+        }
     }
 
     private void Init()
@@ -156,7 +161,7 @@ public class FSM : MonoBehaviour
         if(CharacterType == Type.Enemy)
         {
             transform.localScale = new Vector3(-1,1,1);
-            spriteRenderer.color = new Color32(255,255,255, 100);
+            spriteRenderer.color = new Color32(255,255,255,100);
         } 
     }
 #region State FSM 관련

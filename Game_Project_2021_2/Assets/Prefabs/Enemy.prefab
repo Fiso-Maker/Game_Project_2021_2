@@ -165,4 +165,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   prfHpBar: {fileID: 5313815961477861184, guid: d65fd293027d7a648a23b1864c79fa13, type: 3}
   canvas: {fileID: 0}
-  height: 1.7
+  height: 1.1

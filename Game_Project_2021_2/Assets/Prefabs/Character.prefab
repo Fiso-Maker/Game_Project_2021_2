@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 2450541384866002468}
   - component: {fileID: 2450541384866002470}
   - component: {fileID: 2450541384866002471}
+  - component: {fileID: 5265390157777209950}
   m_Layer: 12
   m_Name: Character
   m_TagString: Untagged
@@ -128,6 +129,7 @@ MonoBehaviour:
   m_Death: 0
   able_to_attack: 0
   able_to_use_tpskill: 0
+  TP: 0
   CharacterType: 0
   startState: 0
 --- !u!95 &2450541384866002471
@@ -149,3 +151,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5265390157777209950
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2450541384866002467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf5d7c10d6e35da48bbfe4a7c60baad2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  prfHpBar: {fileID: 5313815961477861184, guid: d65fd293027d7a648a23b1864c79fa13, type: 3}
+  prfTPBar: {fileID: 4391116899255115841, guid: 8b47f4785592af24e8fc93ed90dc7f04, type: 3}
+  prfButton: {fileID: 4165628287362966384, guid: bfc079d6b856ef6449bca0077a25bb34, type: 3}
+  canvas: {fileID: 0}
+  hpBarPos: {fileID: 0}
+  UPButton: {fileID: 0}

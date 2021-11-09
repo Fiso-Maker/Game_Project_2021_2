@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Character : MonoBehaviour
 {
@@ -17,7 +18,8 @@ public class Character : MonoBehaviour
     RectTransform tpBarPos;
     GameObject tpBar;
 
-    GameObject UPButton;
+    public GameObject UPButton;
+    [HideInInspector]
     RectTransform UPButtonPos;
 
 
@@ -26,6 +28,7 @@ public class Character : MonoBehaviour
         canvas = GameObject.Find("Canvas");
 
         UPButton = Instantiate(prfButton, canvas.transform);
+        UPButton.GetComponent<Image>().color = new Color32(155,155,155,255);
         UPButtonPos = UPButton.GetComponent<RectTransform>();
 
         hpBar = Instantiate(prfHpBar, canvas.transform);
@@ -47,6 +50,7 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // 237씩 밀어야 함
         Vector3 _hpBarPos = new Vector3(487,123,0);
         hpBarPos.position = _hpBarPos;
 
@@ -55,5 +59,14 @@ public class Character : MonoBehaviour
 
         Vector3 Up_ButtonPos = new Vector3(_hpBarPos.x,_hpBarPos.y+125,_hpBarPos.z);
         UPButtonPos.position = Up_ButtonPos;
+    }
+
+    public void UPButton_Click()
+    {
+        if(this.GetComponent<FSM>().able_to_use_tpskill)
+        {
+            UPButton.GetComponent<Image>().color = new Color32(155,155,155,255);
+            this.GetComponent<FSM>().able_to_use_tpskill = false;
+        }
     }
 }
