@@ -52,6 +52,7 @@ public class HPandTP : MonoBehaviour
             {
                 slider2.value = (float) a.TP/a._stat._needTP;
             }  
+
         }   
     }
 }

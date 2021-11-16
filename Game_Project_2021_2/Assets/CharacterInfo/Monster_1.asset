@@ -18,5 +18,5 @@ MonoBehaviour:
   _damage: 35
   _moveSpeed: 3
   _needTP: 1000
-  _range: 2
+  _range: 3.5
   _AttackdelayTime: 2

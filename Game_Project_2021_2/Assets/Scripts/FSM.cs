@@ -134,6 +134,11 @@ public class FSM : MonoBehaviour
             var a = this.GetComponent<Character>().UPButton.GetComponent<Image>();
             a.color = new Color32(255,255,255,255);
         }
+
+        if(GameManager.instance.EnemyAliveCount == 0 || GameManager.instance.CharacterAliveCount == 0)
+        {
+            ChangeState(State.Win);
+        }
     }
 
     private void Init()
@@ -161,7 +166,7 @@ public class FSM : MonoBehaviour
         if(CharacterType == Type.Enemy)
         {
             transform.localScale = new Vector3(-1,1,1);
-            spriteRenderer.color = new Color32(255,255,255,100);
+            spriteRenderer.color = new Color32(255,255,255,120);
         } 
     }
 #region State FSM 관련
@@ -333,6 +338,17 @@ public class FSM : MonoBehaviour
     private void Death_Enter()
     {
         anim.SetTrigger("isDie");
+
+        if(CharacterType == Type.Enemy)
+        {
+            GameManager.instance.EnemyAliveCount--;
+        }
+        else if(CharacterType == Type.Character)
+        {
+            GameManager.instance.CharacterAliveCount--;
+        }
+        
+        gameObject.transform.position = new Vector3(gameObject.transform.position.x,gameObject.transform.position.y, gameObject.transform.position.z +10);
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
     }
 
@@ -345,6 +361,7 @@ public class FSM : MonoBehaviour
         {
             case StateFlow.ENTER:
                 Debug.Log($"<color=yellow>{this.name}</color> - 상태 : {currentState},   상태단계 : {stateFlow}");
+                Win_Enter();
                 break;
             case StateFlow.UPDATE:
                 break;
@@ -352,6 +369,11 @@ public class FSM : MonoBehaviour
                 Debug.Log($"<color=yellow>{this.name}</color> - 상태 : {currentState},   상태단계 : {stateFlow}");
                 break;
         }
+    }
+
+    private void Win_Enter()
+    {
+        anim.SetBool("isWalk",false);
     }
 
 #endregion
