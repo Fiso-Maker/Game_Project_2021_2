@@ -34,7 +34,9 @@ public class FSM : MonoBehaviour
 
     public int TP;
     [HideInInspector]
-    
+
+    public GameObject DamagedObject;
+    [HideInInspector]
     Animator anim;
     SpriteRenderer spriteRenderer;
 
@@ -135,7 +137,7 @@ public class FSM : MonoBehaviour
             a.color = new Color32(255,255,255,255);
         }
 
-        if(GameManager.instance.EnemyAliveCount == 0 || GameManager.instance.CharacterAliveCount == 0)
+        if(GameManager.instance.isWin)
         {
             ChangeState(State.Win);
         }
@@ -185,6 +187,7 @@ public class FSM : MonoBehaviour
                 Idle_Update();
                 break;
             case StateFlow.EXIT:
+                Idle_Exit();
                 Debug.Log($"<color=yellow>{this.name}</color> - 상태 : {currentState},   상태단계 : {stateFlow}");
                 break;
         }
@@ -204,6 +207,11 @@ public class FSM : MonoBehaviour
         else{
             ChangeState(State.Move);
         }
+    }
+
+    private void Idle_Exit()
+    {
+
     }
 
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -285,10 +293,10 @@ public class FSM : MonoBehaviour
             if(RayCastCheck())
             {
                 
-                GameObject damagedObject = RayCastCheck().collider.gameObject;
+                DamagedObject = RayCastCheck().collider.gameObject;
                 anim.SetTrigger("Attack");
-                damagedObject.GetComponent<FSM>().TakeHit(damage);
-                Debug.Log($"공격한 주체 : <color=green>{gameObject.name}</color> 공격받은 대상 : <color=red>{damagedObject.name}</color> - 대상의 남은 체력 : {damagedObject.GetComponent<FSM>().health}");
+                DamagedObject.GetComponent<FSM>().TakeHit(damage);
+                Debug.Log($"공격한 주체 : <color=green>{gameObject.name}</color> 공격받은 대상 : <color=red>{DamagedObject.name}</color> - 대상의 남은 체력 : {DamagedObject.GetComponent<FSM>().health}");
 
                 TP += TPRegeneration;
                 
@@ -417,6 +425,11 @@ public class FSM : MonoBehaviour
         {
             ChangeState(State.Death);
         }
+    }
+
+    public void UseSkill()
+    {
+        DamagedObject.GetComponent<FSM>().TakeHit(damage*3);
     }
 
     private void Able_To_Use_TPSkill_Check()

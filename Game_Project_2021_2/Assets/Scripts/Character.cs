@@ -71,6 +71,8 @@ public class Character : MonoBehaviour
 
     public void UPButton_Click()
     {
+        this.gameObject.GetComponent<FSM>().UseSkill();
+
         if(this.GetComponent<FSM>().able_to_use_tpskill)
         {
             UPButton.GetComponent<Image>().color = new Color32(255,255,255,255);

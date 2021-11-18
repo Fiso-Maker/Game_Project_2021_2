@@ -25,13 +25,26 @@ public class GameManager : MonoBehaviour
     public int EnemyAliveCount;
     public int CharacterAliveCount;
 
+    public bool isWin;
+    public bool isLose;
+
     // Start is called before the first frame update
     void Start()
     {
+        isWin = false;
+        isLose = false;
     }
 
     // Update is called once per frame
     void Update()
     {
+        if(GameManager.instance.EnemyAliveCount == 0)
+        {
+            isWin=true;
+        }
+        else if(GameManager.instance.CharacterAliveCount == 0)
+        {
+            isLose = true;
+        }
     }
 }

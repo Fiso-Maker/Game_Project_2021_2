@@ -23,7 +23,7 @@ public class Timer : MonoBehaviour
     {
         LimitTime -= Time.deltaTime;
         minute = (int)LimitTime/60;
-        second = LimitTime%60;
+        second = (int)LimitTime%60;
 
         text_Timer.text = minute + ": " +Mathf.Round(second);
     }
