@@ -19,7 +19,7 @@ public class TimeManager : MonoBehaviour
         {
             Time.timeScale = 2.0f;
         }
-        else
+        else if(Time.timeScale == 2.0f)
         {
             Time.timeScale = 1.0f;
         }
