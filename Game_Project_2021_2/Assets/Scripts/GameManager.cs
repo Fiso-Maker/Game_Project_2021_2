@@ -25,6 +25,9 @@ public class GameManager : MonoBehaviour
     public int EnemyAliveCount;
     public int CharacterAliveCount;
 
+    public int Max_Monster_Wave;
+    public int Cur_Monster_Wave;
+
     public bool isWin;
     public bool isLose;
 
@@ -33,6 +36,7 @@ public class GameManager : MonoBehaviour
     {
         isWin = false;
         isLose = false;
+        Cur_Monster_Wave = 0;
     }
 
     // Update is called once per frame
@@ -40,7 +44,16 @@ public class GameManager : MonoBehaviour
     {
         if(GameManager.instance.EnemyAliveCount == 0)
         {
-            isWin=true;
+            Cur_Monster_Wave++;
+
+            if(Max_Monster_Wave < Cur_Monster_Wave)
+            {
+                isWin = true;
+            }
+            else
+            {
+                GameObject.Find("Spawner/EnemySpawner").GetComponent<EnemySpawner>().init();
+            }
         }
         else if(GameManager.instance.CharacterAliveCount == 0)
         {

@@ -1266,6 +1266,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemyAliveCount: 0
   CharacterAliveCount: 0
+  Max_Monster_Wave: 3
+  Cur_Monster_Wave: 0
   isWin: 0
   isLose: 0
 --- !u!4 &1092416255

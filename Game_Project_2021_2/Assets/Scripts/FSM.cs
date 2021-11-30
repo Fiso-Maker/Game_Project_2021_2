@@ -30,7 +30,7 @@ public class FSM : MonoBehaviour
     public bool able_to_attack;
     public bool able_to_use_tpskill;
     
-    private float timer;
+    private float att_timer;
 
     public int TP;
     [HideInInspector]
@@ -158,7 +158,7 @@ public class FSM : MonoBehaviour
         able_to_attack = true;
 
         attackdelayTime = _stat._AttackdelayTime;
-        timer = 0f;
+        att_timer = 0f;
         TP = 0;
 
         anim = GetComponent<Animator>();
@@ -311,13 +311,13 @@ public class FSM : MonoBehaviour
         }
         else
         {
-            timer += Time.deltaTime;
+            att_timer += Time.deltaTime;
 
-            if (timer >= attackdelayTime)
+            if (att_timer >= attackdelayTime)
 
             {
 
-                timer = 0f;
+                att_timer = 0f;
 
                 able_to_attack = true;
 
@@ -358,6 +358,23 @@ public class FSM : MonoBehaviour
         
         gameObject.transform.position = new Vector3(gameObject.transform.position.x,gameObject.transform.position.y, gameObject.transform.position.z +10);
         gameObject.GetComponent<BoxCollider2D>().enabled = false;
+
+        StartCoroutine("Disappear");
+    }
+
+    IEnumerator Disappear()
+    {
+        while (spriteRenderer.color.a > 0)
+        {
+            var color = spriteRenderer.color;
+            //color.a is 0 to 1. So .5*time.deltaTime will take 2 seconds to fade out 
+            color.a -= (.25f * Time.deltaTime);
+
+            spriteRenderer.color = color;
+            //wait for a frame
+            yield return null;
+        }
+        Destroy(gameObject);
     }
 
 

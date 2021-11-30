@@ -21,7 +21,14 @@ public class Timer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        LimitTime -= Time.deltaTime;
+        if(LimitTime <= 0f)
+        {
+            LimitTime = 0f;
+        }
+        else{
+            LimitTime -= Time.deltaTime;
+        }
+         
         minute = (int)LimitTime/60;
         second = (int)LimitTime%60;
 

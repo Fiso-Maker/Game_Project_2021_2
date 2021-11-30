@@ -10,6 +10,17 @@ public class EnemySpawner : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    public void init()
+    {
         int i=0;
 
         EnemySpawnTransforms = this.GetComponentsInChildren<Transform>();
@@ -19,11 +30,5 @@ public class EnemySpawner : MonoBehaviour
             i++;
             GameManager.instance.EnemyAliveCount++;
         }
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
