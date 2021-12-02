@@ -42,18 +42,18 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameManager.instance.EnemyAliveCount == 0)
+        if(GameManager.instance.EnemyAliveCount == 0 && !isWin)
         {
-            Cur_Monster_Wave++;
-
-            if(Max_Monster_Wave < Cur_Monster_Wave)
+            if(Max_Monster_Wave <= Cur_Monster_Wave)
             {
                 isWin = true;
             }
             else
             {
                 GameObject.Find("Spawner/EnemySpawner").GetComponent<EnemySpawner>().init();
+                Cur_Monster_Wave++;
             }
+
         }
         else if(GameManager.instance.CharacterAliveCount == 0)
         {

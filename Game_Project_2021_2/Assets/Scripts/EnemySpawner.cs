@@ -23,7 +23,7 @@ public class EnemySpawner : MonoBehaviour
     {
         int i=0;
 
-        EnemySpawnTransforms = this.GetComponentsInChildren<Transform>();
+        // EnemySpawnTransforms = this.GetComponentsInChildren<Transform>();
         foreach(Transform ST in EnemySpawnTransforms)
         {
             Instantiate(prfEnemy[i], ST);

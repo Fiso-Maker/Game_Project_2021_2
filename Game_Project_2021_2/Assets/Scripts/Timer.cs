@@ -13,6 +13,7 @@ public class Timer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        text_Timer = this.GetComponent<Text>();
         minute = (int)LimitTime/60;
         second = LimitTime%60;
         text_Timer.text = "";
