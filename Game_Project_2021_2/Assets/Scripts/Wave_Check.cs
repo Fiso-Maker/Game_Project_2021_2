@@ -14,6 +14,6 @@ public class Wave_Check : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        text.text = GameManager.instance.Cur_Monster_Wave + "/" +GameManager.instance.Max_Monster_Wave;
+        text.text = GameManager.instance.Cur_Monster_Wave + " / " +GameManager.instance.Max_Monster_Wave;
     }
 }
